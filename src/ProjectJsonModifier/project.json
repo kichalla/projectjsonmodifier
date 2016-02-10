@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "ProjectJsonModifier Console Application",
+  "authors": [ "kichalla" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Newtonsoft.Json": "7.0.1",
+    "LibGit2Sharp": "0.21.0.176"
+  },
+
+  "commands": {
+    "ProjectJsonModifier": "ProjectJsonModifier"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}
